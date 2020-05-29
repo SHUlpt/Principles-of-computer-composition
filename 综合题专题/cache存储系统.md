@@ -59,9 +59,8 @@ $\frac{64B}{4*2B}=8\Rightarrow$主存以cache的分组为标准进行分组，�
 $\frac{8}{2}=4\Rightarrow$将主存的大组再次细分，分为4个区，每个区包含2组，即最终**每个区内的分组方式与cache完全相同**
 
 <center>
-    <img src=".assets/image-20200528125550109.png" alt="image-20200528125550109" style="zoom:67%;" />
+    <img src=".assets/image-20200529192003890.png" alt="image-20200529192003890" style="zoom:67%;" />
 </center>
-
 
 内存地址8位于主存第1块(从0开始)，根据组相联映射，只能映射到cache的第$1\%2=1$组上，但可以放在组内的任意行里
 
